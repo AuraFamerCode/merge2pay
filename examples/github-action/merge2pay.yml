@@ -1,0 +1,46 @@
+# .github/workflows/merge2pay.yml in the repository whose issues you fund.
+# Secrets: GIBWORK_PRIVATE_KEY (the wallet that created the bounties).
+name: merge2pay
+on:
+  pull_request:
+    types: [closed]          # a PR merged: pay its bounty within a minute
+  schedule:
+    - cron: '17 * * * *'     # hourly sweep: new submissions, CI turning green
+  workflow_dispatch:
+    inputs:
+      execute:
+        description: Apply the plan
+        default: 'false'
+
+permissions:
+  contents: write            # commit the ledger back
+  pull-requests: read
+  checks: read
+
+concurrency:
+  group: merge2pay           # never two settlements at once
+  cancel-in-progress: false
+
+jobs:
+  settle:
+    if: github.event_name != 'pull_request' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: AuraFamerCode/merge2pay@main
+        with:
+          execute: ${{ github.event_name == 'workflow_dispatch' && inputs.execute || 'true' }}
+        env:
+          GIBWORK_PRIVATE_KEY: ${{ secrets.GIBWORK_PRIVATE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit ledger
+        run: |
+          git config user.name merge2pay
+          git config user.email merge2pay@users.noreply.github.com
+          git add .merge2pay/ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m "merge2pay: update ledger"
+            git push
+          fi

@@ -1,0 +1,44 @@
+name: merge2pay
+description: Pay Gibwork bounties automatically when the GitHub pull request that fixes the issue is merged.
+author: Kanish Patidar
+branding:
+  icon: dollar-sign
+  color: green
+inputs:
+  execute:
+    description: 'Apply the plan (pay / reject / comment). "false" runs a dry run and only writes the report.'
+    default: 'false'
+  ledger:
+    description: Path to the merge2pay ledger in the repository.
+    default: .merge2pay/ledger.json
+  policy:
+    description: Path to the policy file.
+    default: merge2pay.yml
+outputs:
+  report:
+    description: Path of the Markdown settlement report.
+    value: ${{ steps.settle.outputs.report }}
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22
+    - name: Install merge2pay
+      shell: bash
+      run: npm ci --prefix "$GITHUB_ACTION_PATH" --no-audit --no-fund
+    - name: Settle bounties
+      id: settle
+      shell: bash
+      env:
+        M2P_EXECUTE: ${{ inputs.execute }}
+        M2P_LEDGER: ${{ inputs.ledger }}
+        M2P_POLICY: ${{ inputs.policy }}
+      run: |
+        report="$RUNNER_TEMP/merge2pay-report.md"
+        args=(settle --ledger "$M2P_LEDGER" --report "$report")
+        [ -f "$M2P_POLICY" ] && args+=(--policy "$M2P_POLICY")
+        if [ "$M2P_EXECUTE" = "true" ]; then args+=(--execute --yes); fi
+        node "$GITHUB_ACTION_PATH/dist/cli.js" "${args[@]}"
+        cat "$report" >> "$GITHUB_STEP_SUMMARY"
+        echo "report=$report" >> "$GITHUB_OUTPUT"
