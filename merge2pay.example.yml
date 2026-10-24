@@ -1,0 +1,30 @@
+# merge2pay policy. Copy to merge2pay.yml in your repository root.
+# Every field is optional; these are the defaults unless noted.
+
+environment: production        # or "stage" (treat stage as real money too)
+
+# --- when is a submission payable? ---
+requireMerged: true            # pay only merged PRs
+requireChecks: not-failing     # success | not-failing | ignore
+requireIssueReference: true    # PR must say "Fixes #N" for the bounty's issue
+requireIdentityProof: false    # PR body must contain "gibwork: <submitter>"
+rejectPreBountyWork: false     # reject PRs opened before the bounty (default: warn)
+
+# --- money guards ---
+maxPayoutPerBounty: "100"      # one approval can never exceed this
+maxPayoutPerRun: "250"         # all approvals in one run can never exceed this
+rating: 5                      # rating sent with each approval
+
+# --- contributor feedback ---
+autoReject: true               # reject invalid submissions with the reason
+commentOnWait: true            # tell waiting contributors what is missing (once per change)
+
+# --- merge2pay fund ---
+fund:
+  label: gibwork               # `merge2pay fund --repo o/r` funds issues with this label
+  amountLabelPrefix: "bounty:" # a "bounty:25" label sets the amount
+  # defaultAmount: "10"
+  # minSubmissionAmount: "10"  # defaults to the full amount (single winner)
+  tags: [Development]
+  # deadlineDays: 30
+  allowOnlyVerifiedSubmissions: false
