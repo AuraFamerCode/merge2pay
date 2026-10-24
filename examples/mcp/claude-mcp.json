@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "merge2pay": {
+      "command": "merge2pay",
+      "args": ["mcp", "--ledger", ".merge2pay/ledger.json"],
+      "env": { "GITHUB_TOKEN": "${GITHUB_TOKEN}" }
+    }
+  }
+}
