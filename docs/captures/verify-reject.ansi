@@ -1,0 +1,9 @@
+[31m[1mREJECT[0m[0m  PR was closed without being merged
+  [32m✓[0m [2mpr-link      [0m https://github.com/honojs/hono/pull/5523
+  [32m✓[0m [2mrepo         [0m honojs/hono
+  [32m✓[0m [2munique       [0m First claim on this PR
+  [32m✓[0m [2mcloses-issue [0m PR says it fixes honojs/hono#5422
+  [31m✗[0m [2mmerged       [0m PR was closed without being merged
+  [33m![0m [2mci           [0m No CI checks reported on the head commit
+  [33m![0m [2midentity     [0m No "gibwork: anonymous" line in the PR body; author is @mikamikasuki
+  [32m✓[0m [2mtiming       [0m PR opened after the bounty was posted

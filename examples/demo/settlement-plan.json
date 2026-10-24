@@ -1,0 +1,809 @@
+{
+  "ok": true,
+  "data": {
+    "generatedAt": "2026-10-24T05:19:55.184Z",
+    "environment": "production",
+    "wallet": "DemoMaintainerWa11et1111111111111111111111111",
+    "mode": "fixtures",
+    "bounties": [
+      {
+        "bounty": {
+          "issue": "honojs/hono#5345",
+          "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+          "amount": "25.00",
+          "createdAt": "2026-10-01T09:00:00.000Z",
+          "status": "open"
+        },
+        "task": {
+          "id": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+          "title": "[hono#5345] RegExpRouter: wildcard routes don't match paths containing an encoded line terminator (%0A, %0D)",
+          "content": "<p><strong>Fix GitHub issue honojs/hono#5345</strong></p><p>Source: https://github.com/honojs/hono/issues/5345</p>",
+          "createdAt": "2026-10-01T09:00:00.000Z",
+          "isOpen": true,
+          "status": "CREATED",
+          "asset": {
+            "symbol": "USDC",
+            "decimals": 6,
+            "amount": "25000000",
+            "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+          },
+          "pendingCount": 0,
+          "url": "https://gib.work/bounty/7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11"
+        },
+        "verdicts": [
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000001",
+            "submitter": "usualoma",
+            "decision": "pay",
+            "summary": "Merged PR closes the bounty issue (by @usualoma)",
+            "pr": {
+              "owner": "honojs",
+              "repo": "hono",
+              "number": 5547,
+              "url": "https://github.com/honojs/hono/pull/5547"
+            },
+            "prAuthor": "usualoma",
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/honojs/hono/pull/5547"
+              },
+              {
+                "id": "repo",
+                "outcome": "pass",
+                "detail": "honojs/hono"
+              },
+              {
+                "id": "unique",
+                "outcome": "pass",
+                "detail": "First claim on this PR"
+              },
+              {
+                "id": "closes-issue",
+                "outcome": "pass",
+                "detail": "PR says it fixes honojs/hono#5345"
+              },
+              {
+                "id": "merged",
+                "outcome": "pass",
+                "detail": "Merged 2026-10-10"
+              },
+              {
+                "id": "ci",
+                "outcome": "pass",
+                "detail": "19 checks green"
+              },
+              {
+                "id": "identity",
+                "outcome": "warn",
+                "detail": "No \"gibwork: usualoma\" line in the PR body; author is @usualoma (matches claimed handle)"
+              },
+              {
+                "id": "timing",
+                "outcome": "pass",
+                "detail": "PR opened after the bounty was posted"
+              }
+            ],
+            "fingerprint": "8ba02a734a0a"
+          },
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000002",
+            "submitter": "quickclaimer",
+            "decision": "reject",
+            "summary": "PR #5547 is already claimed by usualoma's submission",
+            "pr": {
+              "owner": "honojs",
+              "repo": "hono",
+              "number": 5547,
+              "url": "https://github.com/honojs/hono/pull/5547"
+            },
+            "prAuthor": "usualoma",
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/honojs/hono/pull/5547"
+              },
+              {
+                "id": "repo",
+                "outcome": "pass",
+                "detail": "honojs/hono"
+              },
+              {
+                "id": "unique",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "PR #5547 is already claimed by usualoma's submission"
+              },
+              {
+                "id": "closes-issue",
+                "outcome": "pass",
+                "detail": "PR says it fixes honojs/hono#5345"
+              },
+              {
+                "id": "merged",
+                "outcome": "pass",
+                "detail": "Merged 2026-10-10"
+              },
+              {
+                "id": "ci",
+                "outcome": "pass",
+                "detail": "19 checks green"
+              },
+              {
+                "id": "identity",
+                "outcome": "warn",
+                "detail": "No \"gibwork: quickclaimer\" line in the PR body; author is @usualoma"
+              },
+              {
+                "id": "timing",
+                "outcome": "pass",
+                "detail": "PR opened after the bounty was posted"
+              }
+            ],
+            "fingerprint": "b48524028d14"
+          },
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000003",
+            "submitter": "driveby",
+            "decision": "reject",
+            "summary": "No GitHub pull request link in the submission",
+            "pr": null,
+            "prAuthor": null,
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "No GitHub pull request link in the submission"
+              }
+            ],
+            "fingerprint": "ad29aa6c1d8a"
+          }
+        ],
+        "actions": [
+          {
+            "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+            "submissionId": "a0000000-0000-4000-8000-000000000001",
+            "issue": "honojs/hono#5345",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000001",
+              "submitter": "usualoma",
+              "decision": "pay",
+              "summary": "Merged PR closes the bounty issue (by @usualoma)",
+              "pr": {
+                "owner": "honojs",
+                "repo": "hono",
+                "number": 5547,
+                "url": "https://github.com/honojs/hono/pull/5547"
+              },
+              "prAuthor": "usualoma",
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/honojs/hono/pull/5547"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "pass",
+                  "detail": "honojs/hono"
+                },
+                {
+                  "id": "unique",
+                  "outcome": "pass",
+                  "detail": "First claim on this PR"
+                },
+                {
+                  "id": "closes-issue",
+                  "outcome": "pass",
+                  "detail": "PR says it fixes honojs/hono#5345"
+                },
+                {
+                  "id": "merged",
+                  "outcome": "pass",
+                  "detail": "Merged 2026-10-10"
+                },
+                {
+                  "id": "ci",
+                  "outcome": "pass",
+                  "detail": "19 checks green"
+                },
+                {
+                  "id": "identity",
+                  "outcome": "warn",
+                  "detail": "No \"gibwork: usualoma\" line in the PR body; author is @usualoma (matches claimed handle)"
+                },
+                {
+                  "id": "timing",
+                  "outcome": "pass",
+                  "detail": "PR opened after the bounty was posted"
+                }
+              ],
+              "fingerprint": "8ba02a734a0a"
+            },
+            "kind": "approve",
+            "amount": "25.00"
+          },
+          {
+            "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+            "submissionId": "a0000000-0000-4000-8000-000000000002",
+            "issue": "honojs/hono#5345",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000002",
+              "submitter": "quickclaimer",
+              "decision": "reject",
+              "summary": "PR #5547 is already claimed by usualoma's submission",
+              "pr": {
+                "owner": "honojs",
+                "repo": "hono",
+                "number": 5547,
+                "url": "https://github.com/honojs/hono/pull/5547"
+              },
+              "prAuthor": "usualoma",
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/honojs/hono/pull/5547"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "pass",
+                  "detail": "honojs/hono"
+                },
+                {
+                  "id": "unique",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "PR #5547 is already claimed by usualoma's submission"
+                },
+                {
+                  "id": "closes-issue",
+                  "outcome": "pass",
+                  "detail": "PR says it fixes honojs/hono#5345"
+                },
+                {
+                  "id": "merged",
+                  "outcome": "pass",
+                  "detail": "Merged 2026-10-10"
+                },
+                {
+                  "id": "ci",
+                  "outcome": "pass",
+                  "detail": "19 checks green"
+                },
+                {
+                  "id": "identity",
+                  "outcome": "warn",
+                  "detail": "No \"gibwork: quickclaimer\" line in the PR body; author is @usualoma"
+                },
+                {
+                  "id": "timing",
+                  "outcome": "pass",
+                  "detail": "PR opened after the bounty was posted"
+                }
+              ],
+              "fingerprint": "b48524028d14"
+            },
+            "kind": "reject"
+          },
+          {
+            "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+            "submissionId": "a0000000-0000-4000-8000-000000000003",
+            "issue": "honojs/hono#5345",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000003",
+              "submitter": "driveby",
+              "decision": "reject",
+              "summary": "No GitHub pull request link in the submission",
+              "pr": null,
+              "prAuthor": null,
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "No GitHub pull request link in the submission"
+                }
+              ],
+              "fingerprint": "ad29aa6c1d8a"
+            },
+            "kind": "reject"
+          }
+        ]
+      },
+      {
+        "bounty": {
+          "issue": "honojs/hono#5520",
+          "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+          "amount": "15.00",
+          "createdAt": "2026-10-02T09:00:00.000Z",
+          "status": "open"
+        },
+        "task": {
+          "id": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+          "title": "[hono#5520] methodOverride retains stale Content-Length after rewriting a form body",
+          "content": "<p><strong>Fix GitHub issue honojs/hono#5520</strong></p><p>Source: https://github.com/honojs/hono/issues/5520</p>",
+          "createdAt": "2026-10-02T09:00:00.000Z",
+          "isOpen": true,
+          "status": "CREATED",
+          "asset": {
+            "symbol": "USDC",
+            "decimals": 6,
+            "amount": "15000000",
+            "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+          },
+          "pendingCount": 0,
+          "url": "https://gib.work/bounty/3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22"
+        },
+        "verdicts": [
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000004",
+            "submitter": "impostor",
+            "decision": "reject",
+            "summary": "Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot",
+            "pr": {
+              "owner": "honojs",
+              "repo": "hono",
+              "number": 5521,
+              "url": "https://github.com/honojs/hono/pull/5521"
+            },
+            "prAuthor": "imharjot",
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/honojs/hono/pull/5521"
+              },
+              {
+                "id": "repo",
+                "outcome": "pass",
+                "detail": "honojs/hono"
+              },
+              {
+                "id": "unique",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "PR #5521 is already claimed by imharjot's submission"
+              },
+              {
+                "id": "closes-issue",
+                "outcome": "pass",
+                "detail": "PR says it fixes honojs/hono#5520"
+              },
+              {
+                "id": "merged",
+                "outcome": "wait",
+                "effect": "wait",
+                "detail": "PR is open, waiting for a maintainer to merge"
+              },
+              {
+                "id": "ci",
+                "outcome": "warn",
+                "detail": "No CI checks reported on the head commit"
+              },
+              {
+                "id": "identity",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot"
+              },
+              {
+                "id": "timing",
+                "outcome": "pass",
+                "detail": "PR opened after the bounty was posted"
+              }
+            ],
+            "fingerprint": "94aa40b01b8f"
+          },
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000005",
+            "submitter": "imharjot",
+            "decision": "wait",
+            "summary": "PR is open, waiting for a maintainer to merge",
+            "pr": {
+              "owner": "honojs",
+              "repo": "hono",
+              "number": 5521,
+              "url": "https://github.com/honojs/hono/pull/5521"
+            },
+            "prAuthor": "imharjot",
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/honojs/hono/pull/5521"
+              },
+              {
+                "id": "repo",
+                "outcome": "pass",
+                "detail": "honojs/hono"
+              },
+              {
+                "id": "unique",
+                "outcome": "pass",
+                "detail": "First claim on this PR"
+              },
+              {
+                "id": "closes-issue",
+                "outcome": "pass",
+                "detail": "PR says it fixes honojs/hono#5520"
+              },
+              {
+                "id": "merged",
+                "outcome": "wait",
+                "effect": "wait",
+                "detail": "PR is open, waiting for a maintainer to merge"
+              },
+              {
+                "id": "ci",
+                "outcome": "warn",
+                "detail": "No CI checks reported on the head commit"
+              },
+              {
+                "id": "identity",
+                "outcome": "warn",
+                "detail": "No \"gibwork: imharjot\" line in the PR body; author is @imharjot (matches claimed handle)"
+              },
+              {
+                "id": "timing",
+                "outcome": "pass",
+                "detail": "PR opened after the bounty was posted"
+              }
+            ],
+            "fingerprint": "bedfc0b89f4a"
+          },
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000006",
+            "submitter": "lost",
+            "decision": "reject",
+            "summary": "PR is in expressjs/express, bounty is for honojs/hono",
+            "pr": {
+              "owner": "expressjs",
+              "repo": "express",
+              "number": 6000,
+              "url": "https://github.com/expressjs/express/pull/6000"
+            },
+            "prAuthor": null,
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/expressjs/express/pull/6000"
+              },
+              {
+                "id": "repo",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "PR is in expressjs/express, bounty is for honojs/hono"
+              }
+            ],
+            "fingerprint": "676e0e0b88cc"
+          }
+        ],
+        "actions": [
+          {
+            "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+            "submissionId": "a0000000-0000-4000-8000-000000000004",
+            "issue": "honojs/hono#5520",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000004",
+              "submitter": "impostor",
+              "decision": "reject",
+              "summary": "Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot",
+              "pr": {
+                "owner": "honojs",
+                "repo": "hono",
+                "number": 5521,
+                "url": "https://github.com/honojs/hono/pull/5521"
+              },
+              "prAuthor": "imharjot",
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/honojs/hono/pull/5521"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "pass",
+                  "detail": "honojs/hono"
+                },
+                {
+                  "id": "unique",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "PR #5521 is already claimed by imharjot's submission"
+                },
+                {
+                  "id": "closes-issue",
+                  "outcome": "pass",
+                  "detail": "PR says it fixes honojs/hono#5520"
+                },
+                {
+                  "id": "merged",
+                  "outcome": "wait",
+                  "effect": "wait",
+                  "detail": "PR is open, waiting for a maintainer to merge"
+                },
+                {
+                  "id": "ci",
+                  "outcome": "warn",
+                  "detail": "No CI checks reported on the head commit"
+                },
+                {
+                  "id": "identity",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot"
+                },
+                {
+                  "id": "timing",
+                  "outcome": "pass",
+                  "detail": "PR opened after the bounty was posted"
+                }
+              ],
+              "fingerprint": "94aa40b01b8f"
+            },
+            "kind": "reject"
+          },
+          {
+            "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+            "submissionId": "a0000000-0000-4000-8000-000000000005",
+            "issue": "honojs/hono#5520",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000005",
+              "submitter": "imharjot",
+              "decision": "wait",
+              "summary": "PR is open, waiting for a maintainer to merge",
+              "pr": {
+                "owner": "honojs",
+                "repo": "hono",
+                "number": 5521,
+                "url": "https://github.com/honojs/hono/pull/5521"
+              },
+              "prAuthor": "imharjot",
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/honojs/hono/pull/5521"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "pass",
+                  "detail": "honojs/hono"
+                },
+                {
+                  "id": "unique",
+                  "outcome": "pass",
+                  "detail": "First claim on this PR"
+                },
+                {
+                  "id": "closes-issue",
+                  "outcome": "pass",
+                  "detail": "PR says it fixes honojs/hono#5520"
+                },
+                {
+                  "id": "merged",
+                  "outcome": "wait",
+                  "effect": "wait",
+                  "detail": "PR is open, waiting for a maintainer to merge"
+                },
+                {
+                  "id": "ci",
+                  "outcome": "warn",
+                  "detail": "No CI checks reported on the head commit"
+                },
+                {
+                  "id": "identity",
+                  "outcome": "warn",
+                  "detail": "No \"gibwork: imharjot\" line in the PR body; author is @imharjot (matches claimed handle)"
+                },
+                {
+                  "id": "timing",
+                  "outcome": "pass",
+                  "detail": "PR opened after the bounty was posted"
+                }
+              ],
+              "fingerprint": "bedfc0b89f4a"
+            },
+            "kind": "comment"
+          },
+          {
+            "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+            "submissionId": "a0000000-0000-4000-8000-000000000006",
+            "issue": "honojs/hono#5520",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000006",
+              "submitter": "lost",
+              "decision": "reject",
+              "summary": "PR is in expressjs/express, bounty is for honojs/hono",
+              "pr": {
+                "owner": "expressjs",
+                "repo": "express",
+                "number": 6000,
+                "url": "https://github.com/expressjs/express/pull/6000"
+              },
+              "prAuthor": null,
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/expressjs/express/pull/6000"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "PR is in expressjs/express, bounty is for honojs/hono"
+                }
+              ],
+              "fingerprint": "676e0e0b88cc"
+            },
+            "kind": "reject"
+          }
+        ]
+      },
+      {
+        "bounty": {
+          "issue": "honojs/hono#5422",
+          "taskId": "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733",
+          "amount": "10.00",
+          "createdAt": "2026-09-20T09:00:00.000Z",
+          "status": "open"
+        },
+        "task": {
+          "id": "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733",
+          "title": "[hono#5422] Adding an unrelated route can change duplicate path parameter values",
+          "content": "<p><strong>Fix GitHub issue honojs/hono#5422</strong></p><p>Source: https://github.com/honojs/hono/issues/5422</p>",
+          "createdAt": "2026-09-20T09:00:00.000Z",
+          "isOpen": true,
+          "status": "CREATED",
+          "asset": {
+            "symbol": "USDC",
+            "decimals": 6,
+            "amount": "10000000",
+            "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+          },
+          "pendingCount": 0,
+          "url": "https://gib.work/bounty/b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733"
+        },
+        "verdicts": [
+          {
+            "submissionId": "a0000000-0000-4000-8000-000000000007",
+            "submitter": "mikamikasuki",
+            "decision": "reject",
+            "summary": "PR was closed without being merged",
+            "pr": {
+              "owner": "honojs",
+              "repo": "hono",
+              "number": 5523,
+              "url": "https://github.com/honojs/hono/pull/5523"
+            },
+            "prAuthor": "mikamikasuki",
+            "checks": [
+              {
+                "id": "pr-link",
+                "outcome": "pass",
+                "detail": "https://github.com/honojs/hono/pull/5523"
+              },
+              {
+                "id": "repo",
+                "outcome": "pass",
+                "detail": "honojs/hono"
+              },
+              {
+                "id": "unique",
+                "outcome": "pass",
+                "detail": "First claim on this PR"
+              },
+              {
+                "id": "closes-issue",
+                "outcome": "pass",
+                "detail": "PR says it fixes honojs/hono#5422"
+              },
+              {
+                "id": "merged",
+                "outcome": "fail",
+                "effect": "reject",
+                "detail": "PR was closed without being merged"
+              },
+              {
+                "id": "ci",
+                "outcome": "warn",
+                "detail": "No CI checks reported on the head commit"
+              },
+              {
+                "id": "identity",
+                "outcome": "warn",
+                "detail": "No \"gibwork: mikamikasuki\" line in the PR body; author is @mikamikasuki"
+              },
+              {
+                "id": "timing",
+                "outcome": "pass",
+                "detail": "PR opened after the bounty was posted"
+              }
+            ],
+            "fingerprint": "70f0f0d3702c"
+          }
+        ],
+        "actions": [
+          {
+            "taskId": "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733",
+            "submissionId": "a0000000-0000-4000-8000-000000000007",
+            "issue": "honojs/hono#5422",
+            "verdict": {
+              "submissionId": "a0000000-0000-4000-8000-000000000007",
+              "submitter": "mikamikasuki",
+              "decision": "reject",
+              "summary": "PR was closed without being merged",
+              "pr": {
+                "owner": "honojs",
+                "repo": "hono",
+                "number": 5523,
+                "url": "https://github.com/honojs/hono/pull/5523"
+              },
+              "prAuthor": "mikamikasuki",
+              "checks": [
+                {
+                  "id": "pr-link",
+                  "outcome": "pass",
+                  "detail": "https://github.com/honojs/hono/pull/5523"
+                },
+                {
+                  "id": "repo",
+                  "outcome": "pass",
+                  "detail": "honojs/hono"
+                },
+                {
+                  "id": "unique",
+                  "outcome": "pass",
+                  "detail": "First claim on this PR"
+                },
+                {
+                  "id": "closes-issue",
+                  "outcome": "pass",
+                  "detail": "PR says it fixes honojs/hono#5422"
+                },
+                {
+                  "id": "merged",
+                  "outcome": "fail",
+                  "effect": "reject",
+                  "detail": "PR was closed without being merged"
+                },
+                {
+                  "id": "ci",
+                  "outcome": "warn",
+                  "detail": "No CI checks reported on the head commit"
+                },
+                {
+                  "id": "identity",
+                  "outcome": "warn",
+                  "detail": "No \"gibwork: mikamikasuki\" line in the PR body; author is @mikamikasuki"
+                },
+                {
+                  "id": "timing",
+                  "outcome": "pass",
+                  "detail": "PR opened after the bounty was posted"
+                }
+              ],
+              "fingerprint": "70f0f0d3702c"
+            },
+            "kind": "reject"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "approve": 1,
+      "reject": 5,
+      "comment": 1,
+      "review": 0,
+      "payout": "25.00",
+      "symbol": "USDC"
+    }
+  }
+}

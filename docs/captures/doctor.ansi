@@ -1,0 +1,5 @@
+  [32m✓[0m policy       built-in defaults
+  [32m✓[0m wallet       Ey1jM5rM7W1XATvnvbP4DihEVo4PTUq3DtNgMkXuyqTF (ephemeral: read-only, nothing can be paid)
+  [32m✓[0m gibwork api  production: 9 open bounties discoverable via SDK tasks.listAvailable
+  [32m✓[0m github api   anonymous (public repos only, 60 req/h)
+  [32m✓[0m ledger       .merge2pay/ledger.json: 0 bounties, 0 payouts

@@ -1,0 +1,36 @@
+[2mwallet DemoMaintainerWa11et1111111111111111111111111  ·  production  ·  fixture data[0m
+
+[1mhonojs/hono#5345[0m  [2m→[0m  [hono#5345] RegExpRouter: wildcard routes don't match paths containing an encoded line terminator (%0A, %0D)  [36m25.00 USDC[0m
+[2m  https://gib.work/bounty/7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11[0m
+  [32m[1mPAY   [0m[0m  usualoma       PR #5547   Merged PR closes the bounty issue (by @usualoma)
+           [32m✓[0m [2mpr-link · repo · unique · closes-issue · merged · ci · timing[0m
+  [31m[1mREJECT[0m[0m  quickclaimer   PR #5547   PR #5547 is already claimed by usualoma's submission
+           [31m✗[0m [2munique       [0m PR #5547 is already claimed by usualoma's submission
+           [33m![0m [2midentity     [0m No "gibwork: quickclaimer" line in the PR body; author is @usualoma
+  [31m[1mREJECT[0m[0m  driveby        no PR      No GitHub pull request link in the submission
+           [31m✗[0m [2mpr-link      [0m No GitHub pull request link in the submission
+
+[1mhonojs/hono#5520[0m  [2m→[0m  [hono#5520] methodOverride retains stale Content-Length after rewriting a form body  [36m15.00 USDC[0m
+[2m  https://gib.work/bounty/3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22[0m
+  [31m[1mREJECT[0m[0m  impostor       PR #5521   Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot
+           [31m✗[0m [2munique       [0m PR #5521 is already claimed by imharjot's submission
+           [33m…[0m [2mmerged       [0m PR is open, waiting for a maintainer to merge
+           [33m![0m [2mci           [0m No CI checks reported on the head commit
+           [31m✗[0m [2midentity     [0m Submission claims GitHub @impostor-dev, but PR #5521 is by @imharjot
+  [33m[1mWAIT  [0m[0m  imharjot       PR #5521   PR is open, waiting for a maintainer to merge
+           [33m…[0m [2mmerged       [0m PR is open, waiting for a maintainer to merge
+           [33m![0m [2mci           [0m No CI checks reported on the head commit
+           [33m![0m [2midentity     [0m No "gibwork: imharjot" line in the PR body; author is @imharjot (matches claimed handle)
+  [31m[1mREJECT[0m[0m  lost           PR #6000   PR is in expressjs/express, bounty is for honojs/hono
+           [31m✗[0m [2mrepo         [0m PR is in expressjs/express, bounty is for honojs/hono
+
+[1mhonojs/hono#5422[0m  [2m→[0m  [hono#5422] Adding an unrelated route can change duplicate path parameter values  [36m10.00 USDC[0m
+[2m  https://gib.work/bounty/b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733[0m
+  [31m[1mREJECT[0m[0m  mikamikasuki   PR #5523   PR was closed without being merged
+           [31m✗[0m [2mmerged       [0m PR was closed without being merged
+           [33m![0m [2mci           [0m No CI checks reported on the head commit
+           [33m![0m [2midentity     [0m No "gibwork: mikamikasuki" line in the PR body; author is @mikamikasuki
+
+[1mPlan:[0m [32m1 to pay (25.00 USDC)[0m, [31m5 to reject[0m, [33m1 to update[0m, [35m0 for a human[0m.
+[2mDry run: nothing was paid, rejected, or posted. Add --execute to apply.[0m[2m
+Report written to examples/demo/settlement-report.md[0m

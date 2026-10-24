@@ -1,0 +1,129 @@
+{
+  "_comment": "Stand-in for Gibwork task + submission reads (SDK tasks.get / submissions.list shapes). Every PR link points at a real public honojs/hono pull request, which merge2pay verifies live on GitHub.",
+  "wallet": "DemoMaintainerWa11et1111111111111111111111111",
+  "tasks": {
+    "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11": {
+      "id": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+      "title": "[hono#5345] RegExpRouter: wildcard routes don't match paths containing an encoded line terminator (%0A, %0D)",
+      "content": "<p><strong>Fix GitHub issue honojs/hono#5345</strong></p><p>Source: https://github.com/honojs/hono/issues/5345</p>",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "isOpen": true,
+      "status": "CREATED",
+      "asset": {
+        "symbol": "USDC",
+        "decimals": 6,
+        "amount": "25000000",
+        "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "pendingCount": 0
+    },
+    "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22": {
+      "id": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+      "title": "[hono#5520] methodOverride retains stale Content-Length after rewriting a form body",
+      "content": "<p><strong>Fix GitHub issue honojs/hono#5520</strong></p><p>Source: https://github.com/honojs/hono/issues/5520</p>",
+      "createdAt": "2026-10-02T09:00:00.000Z",
+      "isOpen": true,
+      "status": "CREATED",
+      "asset": {
+        "symbol": "USDC",
+        "decimals": 6,
+        "amount": "15000000",
+        "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "pendingCount": 0
+    },
+    "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733": {
+      "id": "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733",
+      "title": "[hono#5422] Adding an unrelated route can change duplicate path parameter values",
+      "content": "<p><strong>Fix GitHub issue honojs/hono#5422</strong></p><p>Source: https://github.com/honojs/hono/issues/5422</p>",
+      "createdAt": "2026-09-20T09:00:00.000Z",
+      "isOpen": true,
+      "status": "CREATED",
+      "asset": {
+        "symbol": "USDC",
+        "decimals": 6,
+        "amount": "10000000",
+        "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "pendingCount": 0
+    }
+  },
+  "submissions": {
+    "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11": [
+      {
+        "id": "a0000000-0000-4000-8000-000000000001",
+        "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+        "content": "<p>Fixed in <a href=\"https://github.com/honojs/hono/pull/5547\">https://github.com/honojs/hono/pull/5547</a><br />github: usualoma</p>",
+        "createdAt": "2026-10-11T08:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "usualoma"
+        }
+      },
+      {
+        "id": "a0000000-0000-4000-8000-000000000002",
+        "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+        "content": "<p>Done! https://github.com/honojs/hono/pull/5547</p>",
+        "createdAt": "2026-10-12T10:30:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "quickclaimer"
+        }
+      },
+      {
+        "id": "a0000000-0000-4000-8000-000000000003",
+        "taskId": "7c1e2a90-4b5d-4f1e-9a6c-2d8f0b3e5a11",
+        "content": "<p>My solution is here: https://drive.google.com/file/d/1AbCdEf/view</p>",
+        "createdAt": "2026-10-13T14:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "driveby"
+        }
+      }
+    ],
+    "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22": [
+      {
+        "id": "a0000000-0000-4000-8000-000000000004",
+        "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+        "content": "<p>PR: https://github.com/honojs/hono/pull/5521 (github: impostor-dev)</p>",
+        "createdAt": "2026-10-04T18:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "impostor"
+        }
+      },
+      {
+        "id": "a0000000-0000-4000-8000-000000000005",
+        "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+        "content": "<p>https://github.com/honojs/hono/pull/5521<br/>github: imharjot</p>",
+        "createdAt": "2026-10-05T07:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "imharjot"
+        }
+      },
+      {
+        "id": "a0000000-0000-4000-8000-000000000006",
+        "taskId": "3f9b8c72-1d4e-4a2b-8e5f-6c7d9a0b1c22",
+        "content": "<p>https://github.com/expressjs/express/pull/6000</p>",
+        "createdAt": "2026-10-06T07:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "lost"
+        }
+      }
+    ],
+    "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733": [
+      {
+        "id": "a0000000-0000-4000-8000-000000000007",
+        "taskId": "b2d4f6a8-9c1e-4d3f-a5b7-c9e1f3a5b733",
+        "content": "<p>https://github.com/honojs/hono/pull/5523</p>",
+        "createdAt": "2026-10-05T12:00:00.000Z",
+        "status": "OPEN",
+        "user": {
+          "username": "mikamikasuki"
+        }
+      }
+    ]
+  }
+}
