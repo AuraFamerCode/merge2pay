@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.keypair.json
+id.json
+.env
+.env.*
+.merge2pay/

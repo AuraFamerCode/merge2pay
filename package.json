@@ -1,0 +1,44 @@
+{
+  "name": "merge2pay",
+  "version": "0.1.0",
+  "description": "Merge-to-pay for Gibwork: turn GitHub issues into Gibwork bounties and settle submissions automatically when the linked pull request is merged.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "test": "node --import tsx --test --test-reporter=spec test/*.test.ts",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "demo": "node dist/cli.js settle --ledger examples/demo/ledger.json --fixtures examples/demo/gibwork-fixtures.json"
+  },
+  "keywords": [
+    "gibwork",
+    "solana",
+    "bounties",
+    "github",
+    "mcp",
+    "cli",
+    "open-source"
+  ],
+  "author": "Kanish Patidar",
+  "license": "MIT",
+  "dependencies": {
+    "@gibwork/sdk": "^0.2.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@solana/web3.js": "^1.98.4",
+    "commander": "^14.0.3",
+    "yaml": "^2.9.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "bin": {
+    "merge2pay": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
